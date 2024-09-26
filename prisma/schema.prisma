@@ -1,0 +1,26 @@
+datasource db {
+  provider = "postgresql" // or your database provider (e.g., "mysql", "sqlite")
+  url      = env("DATABASE_URL") // ensure this variable is set in your .env file
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String?
+  email     String   @unique
+  password  String
+  role      String   @default("user") // 'admin', 'moderator', 'user'
+  cards     Card[]
+}
+
+model Card {
+  id          Int      @id @default(autoincrement())
+  playerName  String
+  team        String
+  position    String
+  image       String
+  description String
+  content     String
+  author      User     @relation(fields: [authorId], references: [id])
+  authorId    Int
+  createdAt   DateTime @default(now())
+}

@@ -39,10 +39,9 @@ export default function BookPage() {
    // eslint-disable-next-line react-hooks/exhaustive-deps
    },[])
 
-
    if(!selectedBook.length) return <p>Book not found</p>
 
-  return (
+  return 
     <motion.div transition={{ type: 'spring', damping: 40, mass: 0.75 }}
     initial={{ opacity: 0, x: 1000 }} animate={{ opacity: 1, x: 0 }}>
      <motion.section transition={{ type: 'spring', damping: 44, mass: 0.75 }}
