@@ -24,7 +24,7 @@ export default function Home() {
       books.map((book,i)=>
         <motion.li 
         whileHover={{scale:1.1}}
-        whileTap={{scale:0.9}}
+        whileTap={{scale:0.9}}                                                                         
         transition={{type:'spring',damping:50,mass:0.75}}
         initial={{opacity:0,x:200*(i+1)}}
         animate={{opacity:1,x:0}}

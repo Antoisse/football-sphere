@@ -9,9 +9,8 @@ export default function Header() {
     transition={{type:'spring',damping:18,mass:0.75}}
     initial={{opacity:0,x:-1000}} animate={{opacity:1,x:0}}
 >
-    <h1 style={bookTitleStyle}>Football <br></br> Sphere</h1>
-    
-        <motion.input type="text" placeholder='Chercher une fiche....'
+    <h1 style={bookTitleStyle}>Football Sphere</h1>
+        <motion.input type="text" placeholder='Tell me what you like to read and we will get that ....'
         style={searchInputStyle}
         initial={{opacity:0,x:-100}}
         animate={{opacity:1,x:0}}

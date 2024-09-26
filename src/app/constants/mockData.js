@@ -1,5 +1,5 @@
-export const books = [
-    { id: 1,author:'William Shakespearee', title: 'Freestyle',image:'https://img.redbull.com/images/c_crop,x_1316,y_0,h_5472,w_4104/c_fill,w_400,h_500/q_auto:low,f_auto/redbullcom/2022/8/9/kd053bfdypmtz8dqbpgl/portia-king-freestyle-football-durban' , description:'A book review is a form of literary criticism in which a book is merely described or analyzed. ',content:`<p>
+export const footballCards = [
+   { id: 1,author:'William Shakespearee', title: 'Soul',image:'https://marketplace.canva.com/EAFaQMYuZbo/1/0/1003w/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg' , description:'A book review is a form of literary criticism in which a book is merely described or analyzed. ',content:`<p>
     William Shakespeare's "Romeo and Juliet" is a timeless tale of love, fate, and tragedy that has captivated audiences for centuries. Set in Verona, Italy, the play tells the story of two young lovers from feuding families, whose passion ultimately leads to their untimely deaths. Through rich language, vivid characters, and poignant themes, Shakespeare explores the complexities of human emotion and the consequences of impulsive actions.
     </p>
     <p>
