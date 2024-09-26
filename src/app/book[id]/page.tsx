@@ -53,9 +53,9 @@ export default function BookPage() {
   <div className={styles.title}>  <h2 className={styles.titleStyles}> {selectedBook[0].title}</h2></div>
   <div className={styles.icons}>
     <button className={styles.saveButton} onClick={handleSave} >Save</button>
-    <i style={iconStyle} className="fas fa-cog"></i> 
-    <i style={iconStyle} className="fas fa-share"></i> 
-    <i style={iconStyle} className="fas fa-search"></i> 
+    <i style={iconStyle} className="fas fa-cog"></i>
+    <i style={iconStyle} className="fas fa-share"></i>
+    <i style={iconStyle} className="fas fa-search"></i>
   </div>
   </motion.section>
 

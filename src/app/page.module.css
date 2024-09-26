@@ -40,7 +40,7 @@
   align-items: flex-start;
 }
 .content{
-  width:30%;
+  width:10%;
 }
 
 .ulGroupStyle{
@@ -52,7 +52,7 @@
 
 .grouper{
   background-color:#f8eadd;
-  margin:0 30px;
+  margin:0 50px;
   padding:10px 1px;
   border-radius:20px;
 

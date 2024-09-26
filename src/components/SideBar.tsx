@@ -11,19 +11,19 @@ export default function SideBar() {
           icon: <i className="fa fa-home" style={iconStyle}></i>
         },
         {
-          title:"Contact",
+          title:"Entrainement",
           icon: <i className="fa fa-envelope" style={iconStyle}></i>
         },
         {
-          title:"AboutUs",
+          title:"Tactique",
           icon: <i className="fa fa-info-circle" style={iconStyle}></i>
         },
         {
-          title:"Paramètres",
+          title:"Nutrition",
           icon: <i className="fa fa-cog" style={iconStyle}></i>
         },
         {
-          title:"Changer mon mot de passe",
+          title:"Gestes technique",
           icon: <i className="fa fa-eye" style={iconStyle}></i>
         }
       ]
